@@ -1,0 +1,258 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+     
+}
+body , html{
+     height: 100vh;
+     width: 100vw;
+}
+section{
+     border: 4px solid #31B399;
+     height: 95vh;
+     width: 95vw;
+     margin: 10px;
+}
+header{
+     height: 10%;
+     width: 100%;
+     background-color: #31B399;
+     font-size: 30px;
+     color: white;
+     /* margin-top: 30px; */
+     padding: 20px;
+     font-weight: bold;
+     word-spacing: 2px;
+
+}
+.container{
+     display: flex;
+}
+#frist-page{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     width: 30%;
+     padding: 10px;
+     flex-direction: column;
+     margin-top: 10px;
+}
+#para{
+     background-color: rgba(211, 211, 211, 0.582);
+     width: 66%;
+     margin-top: 30px;
+     padding: 5px;
+     height: 50px;
+     font-weight: 500;
+}
+#tabel{
+     margin-top: 10px;
+     padding: 30px;
+}
+table th{
+     padding: 10px;
+}
+
+
+#second-page{
+     display: flex;
+     /* align-items: center; */
+     justify-content: center;
+     height: 100%;
+     width: 45%;
+     /* padding: 10px; */
+     flex-direction: column;
+     margin-top:15px;
+     margin-left: 30px;
+}
+
+#second-page .title{
+     padding-bottom: 10px;
+}
+
+.title h3{
+     font-size: 26px;
+    letter-spacing: 1.5px;
+    color: #31B399;
+    font-weight: 700;
+}
+#second-page .bars{
+     width: 60%;
+     
+}
+#second-page .bars p{
+    padding: 2px 1px  1px 10px;
+    background-color: #31B399;
+    margin: 0 0 15px 0;
+    color: aliceblue;
+    font-size: 14px;
+
+     
+}
+ .bars  #second{
+    width: 70%;
+
+     
+}
+ .bars  #third{
+    width: 80%;
+
+     
+}
+ .bars  #fourth{
+    width: 55%;
+
+     
+}
+.goals{
+     width: 80%;
+}
+.Frustration{
+margin-top: 10px;
+width: 80%;
+}
+
+
+.bio{
+     background-color: rgba(211, 211, 211, 0.304);
+     padding: 20px;
+     width: 75%;
+     margin-top: 40px;
+     /* letter-spacing: px; */
+}
+
+#third-page{
+     display: flex;
+     /* align-items: center; */
+     justify-content: center;
+     height: 100%;
+     width: 20%;
+     /* padding: 10px; */
+     flex-direction: column;
+     margin-top:15px;
+     margin-left: -50px;
+}
+
+#third-page .titles{
+     margin-top: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     /* margin: 10px; */
+}
+
+.bars-2{
+     display: flex;
+     /* margin-top: 5px; */
+}
+#third-page #one{
+     background-color: lightgray;
+     width: 30%;
+     height: 16px;
+}
+#third-page #two{
+     background-color: #31B399;
+     width: 12%;
+     height: 16px;
+}
+#third-page #three{
+     background-color: lightgray;
+     width: 80%;
+     height: 16px;
+}
+
+
+#third-page #one1{
+     background-color: lightgray;
+     width: 50%;
+     height: 16px;
+}
+#third-page #one11{
+     background-color: lightgray;
+     width: 50%;
+     height: 16px;
+}
+#third-page #one111{
+     background-color: lightgray;
+     width: 20%;
+     height: 16px;
+}
+#tech{
+     margin-top: 15px;
+}
+
+
+.bars-3{
+     display: flex;
+     /* margin-top: 5px; */
+}
+
+.bars-4{
+     display: flex;
+     /* margin-top: 5px; */
+}
+
+.bars-5{
+     display: flex;
+     /* margin-top: 5px; */
+}
+
+.bars-6{
+     display: flex;
+     /* margin-top: 5px; */
+}
+
+#third-page .bars-3 #one{
+     background-color: #31B399;
+     width: 80%;
+     height: 16px;
+}
+#third-page .bars-3 #two{
+     background-color: lightgray;
+     width: 30%;
+     height: 16px;
+}
+#third-page .bars-4 #one{
+     background-color: #31B399;
+     width: 60%;
+     height: 16px;
+}
+#third-page .bars-4 #two{
+     background-color: lightgray;
+     width: 40%;
+     height: 16px;
+}
+#third-page .bars-5 #one{
+     background-color: #31B399;
+     width: 80%;
+     height: 16px;
+}
+#third-page .bars-5 #two{
+     background-color: lightgray;
+     width: 30%;
+     height: 16px;
+}
+#third-page .bars-6 #one{
+     /* background-color: #31B399; */
+     /* width: 80%; */
+     height: 16px;
+}
+#third-page .bars-6 #two{
+     background-color: lightgray;
+     width: 100%;
+     height: 16px;
+}
+
+#brands{
+     margin-top: 20px;
+}
+
+.images{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 20px;
+}
